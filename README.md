@@ -1,4 +1,4 @@
-# 🧠 Smart Wellness Tracker – End-to-End MLOps Project (Local Setup with MinIO + K8s)
+# Smart Wellness Tracker – End-to-End MLOps Project (Local Setup with MinIO + K8s)
 
 > Predict wellness scores using simulated IoT health data (heart rate, sleep hours, step count) through a fully containerized, orchestrated, and monitored MLOps pipeline.
 
@@ -146,5 +146,3 @@ helm install monitor prometheus-community/kube-prometheus-stack
 kubectl port-forward svc/monitor-grafana 3000:80
 Visit: http://localhost:3000
 Login: admin / prom-operator
-
-![alt text](image.png)
