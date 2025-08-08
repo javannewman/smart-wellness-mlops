@@ -5,7 +5,7 @@
 # Architecture
 
 
-<img width="300" alt="Architecture Overview" src="https://github.com/user-attachments/assets/a333e4aa-2263-4aa4-aec1-039bb623542c" />
+<img width="400" alt="Architecture Overview" src="https://github.com/user-attachments/assets/a333e4aa-2263-4aa4-aec1-039bb623542c" />
 
 
 
@@ -23,23 +23,7 @@
 | Monitoring           | Prometheus + Grafana                               
 ---
 
-## 📁 Project Structure
+# Project Structure
 
-smart-wellness-mlops/
-│
-├── app/
-│ ├── main.py # FastAPI app
-│ └── train.py # Training + MLflow logging
-│
-├── data/ # Raw DVC versioned data
-├── models/ # Saved models (joblib)
-├── pipelines/ # (Optional) Prefect flows
-├── k8s/
-│ └── deployment.yaml # K8s deployment + service
-├── Dockerfile # FastAPI container
-├── generate_data.py # Simulate IoT health data
-├── requirements.txt
-├── dvc.yaml
-├── mlruns/ # Local MLflow tracking
-└── README.md
+<img width="172" height="258" alt="Image" src="https://github.com/user-attachments/assets/66efa3d1-9085-4434-90f4-99e2569a0b52" />
 
