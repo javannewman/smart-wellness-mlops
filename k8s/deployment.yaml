@@ -13,21 +13,28 @@ spec:
         app: wellness
     spec:
       containers:
-      - name: wellness-api
-        image: wellness-api:latest
-        imagePullPolicy: Never
-        ports:
-        - containerPort: 8000
+        - name: wellness-api
+          image: wellness-api:latest
+          imagePullPolicy: Never
+          ports:
+            - name: http
+              containerPort: 8000
 ---
 apiVersion: v1
 kind: Service
 metadata:
   name: wellness-service
+  annotations:
+    prometheus.io/scrape: "true"
+    prometheus.io/path: /metrics
+    prometheus.io/port: "8000"
 spec:
   selector:
     app: wellness
   type: NodePort
   ports:
-    - port: 80
+    - name: http
+      port: 80
       targetPort: 8000
       nodePort: 30008
+
