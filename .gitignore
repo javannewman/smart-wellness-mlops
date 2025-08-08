@@ -1,0 +1,17 @@
+# DVC cache
+.dvc/cache/
+
+# Python virtual environment
+.venv/
+
+# MLflow local runs
+mlruns/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE files (e.g., VS Code)
+.vscode/
+
+# Log files
+*.log
