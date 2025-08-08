@@ -3,25 +3,9 @@
 > Predict wellness scores using simulated health data heart rate, sleep hours via containerized, orchestrated, and monitored MLOps pipeline.
 
 # Architecture
-[ generate.py ] 
-       │
-       ▼
-[ data/wellness.csv ] ⇄ [ DVC + MinIO (S3) ]
-       │
-       ▼
-[ train.py ] ───► [ MLflow ]
-       │
-       ▼
-[ model.joblib ]
-       │
-       ▼
-[ FastAPI + Docker ]
-       │
-       ▼
-[ Kubernetes (Minikube) ]
-       │
-       ▼
-[ Prometheus + Grafana ]
+
+<img width="900" alt="Architecture Overview" src="https://github.com/user-attachments/assets/a333e4aa-2263-4aa4-aec1-039bb623542c" />
+
 
 
 ## Tools
