@@ -32,3 +32,6 @@
 
 <img width="923" height="341" alt="Image" src="https://github.com/user-attachments/assets/94c3781c-3e87-4061-bcb2-be995c3b8882" />
 
+# MLfLOW UI Experiment
+
+<img width="955" height="356" alt="Image" src="https://github.com/user-attachments/assets/29c8a39e-e797-42a1-bae4-8936cce86742" />
