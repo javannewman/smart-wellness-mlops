@@ -35,3 +35,19 @@
 # MLfLOW UI Experiment
 
 <img width="955" height="356" alt="Image" src="https://github.com/user-attachments/assets/29c8a39e-e797-42a1-bae4-8936cce86742" />
+
+# FastAPI Running Configured
+
+<img width="638" height="280" alt="Image" src="https://github.com/user-attachments/assets/1c903a55-35a4-4b8c-bb2f-3b0385447b1b" />
+
+#  Swagger UI
+
+<img width="929" height="996" alt="Image" src="https://github.com/user-attachments/assets/1e5ff631-6941-44eb-8572-4f9f81e99a6c" />
+
+#  Docker Container Build
+
+<img width="653" height="392" alt="Image" src="https://github.com/user-attachments/assets/5a65dce6-87a5-4853-963a-989853def5dd" />
+
+# Kubernetes Deployment Pods Running
+
+<img width="682" height="540" alt="Image" src="https://github.com/user-attachments/assets/d2180caf-80d9-4b75-9126-b34c97390b64" />
