@@ -51,3 +51,10 @@
 # Kubernetes Deployment Pods Running
 
 <img width="682" height="540" alt="Image" src="https://github.com/user-attachments/assets/d2180caf-80d9-4b75-9126-b34c97390b64" />
+
+# PROJECT SUMMARY
+As part of my End-to-End MLOps Project, I built a complete machine learning operations pipeline to manage the entire ML lifecycle — from data preparation to model deployment and monitoring. This project focused on applying core MLOps engineering responsibilities, ensuring the workflow was scalable, reproducible, and production-ready.
+
+# Results:
+
+The MLOps pipeline automated the entire machine learning workflow, ensuring full traceability of data, code, and models, while facilitating seamless deployment and scalable operations within a Kubernetes environment, all supported by continuous monitoring for consistent performance and reliability.
